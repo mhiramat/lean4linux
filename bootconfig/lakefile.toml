@@ -1,0 +1,10 @@
+name = "bootconfig"
+version = "0.1.0"
+defaultTargets = ["bootconfig"]
+
+[[lean_lib]]
+name = "Bootconfig"
+
+[[lean_exe]]
+name = "bootconfig"
+root = "Main"
